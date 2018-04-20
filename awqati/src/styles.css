@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face { font-family: "Al-Kharashi-20"; src: url("/assets/fonts/Al-Kharashi-20.ttf") format("truetype"); }
+@font-face { font-family: "BFantezy"; src: url("/assets/fonts/BFantezy.ttf") format("truetype"); }
+
+/* Regular */
+@font-face {
+    font-family: "JF Flat Regular";
+    src: url('/assets/fonts/JF-Flat-regular.eot');
+    src: url('/assets/fonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('/assets/fonts/JF-Flat-regular.woff') format('woff'),
+    url('/assets/fonts/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { font-family: "BArabics"; src: url("/assets/fonts/BArabics.ttf") format("truetype"); }
+@font-face { font-family: "KacstQurn"; src: url("/assets/fonts/KacstQurn.ttf") format("truetype"); }
+@font-face { font-family: "HANDGOTN"; src: url("/assets/fonts/HANDGOTN.TTF") format("truetype"); }
+@font-face { font-family: "VENUSRIS"; src: url("/assets/fonts/VENUSRIS.TTF") format("truetype"); }
+@font-face { font-family: "Besmellah"; src: url("/assets/fonts/Besmellah_2.ttf") format("truetype"); }
+
+

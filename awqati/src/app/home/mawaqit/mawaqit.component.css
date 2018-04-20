@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+
+.side-bar-left{
+   
+   height: auto;
+   height: 100vh;
+   background-image: url('../../../assets/images/Making_of_kirikane_pattern_12.png'); 
+
+}
+.side-bars{
+    height: 100vh;
+    background: #0e1b45;
+    font-family: 'JF Flat Regular',Sans-Serif;
+}
+.side-bar-right{
+    
+    height: auto;
+     height: 100vh;
+}
+
+.masjid-name{
+    font-size:20px;
+    text-align: center;
+    margin-top: 0px;
+    color: #56c5d0;
+    height: 10vh;
+}
+h1 {
+     margin-top: 0px;
+     font-family: 'JF Flat Regular',Sans-Serif;
+}
+.salat{
+ font-size: 43px;
+ list-style: none;
+ margin: 0 20px 0 20px;
+ font-family: 'JF Flat Regular',Sans-Serif;
+ color: #0e1b45;
+ height: 9vh;
+ font-weight: bold;
+}
+
+.salat-time{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.salat-name{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+
+.enabled {
+    background-color: #56c5d0;
+    color:white;
+    height: 95px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius:20px;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.time, .date {
+    height: 10vh;
+    text-align: center;
+    font-family: 'JF Flat Regular',Sans-Serif;
+    font-size: 45px
+}
+.time {
+    font-weight: bold;
+    font-size:60px;
+}
+.awqat{
+    height: 60vh;
+}
+
+.date-part {
+    float: right;
+    margin: 0 5px 0 5px;
+}
+
+.date{
+    margin-right: 17%;
+}
+
+.invocation-title {
+    font-size: 127px;
+    color: white;
+    text-align: center;
+    font-family: 'BFantezy', sans-serif;
+}
+
+.invocation-content,
+.invocation-takhrij {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    font-family: 'BArabics', sans-serif;
+    
+}
+.invocation-content {
+ padding:0 20% 10% 20%;
+}
+
+.bismillah {
+    font-size: 30em;
+    color: white;
+    text-align: center;
+  font-family: 'Besmellah', sans-serif;
+}
+
+.no-mobile {
+  
+  margin-left: 25%;
+  position: relative;
+  animation: no-mobile 2s infinite;
+  width: 50%;
+  height: 50%;
+  display: none;
+}
+@keyframes no-mobile { 
+0%   { z-index:-1; }
+100% { z-index:1; } 
+}

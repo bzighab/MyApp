@@ -1,0 +1,52 @@
+<div class="container-fluid">
+  <div class="side-bars row">
+    <div class="side-bar-left col-lg-6">
+      <div class="masjid-name">
+        <h1>مسجد مالك بن أنس الزعرورية</h1>
+      </div>
+      <div class="time"><time>{{ now }}</time></div>
+      <div class="date ">
+        <div class="hijri-date">
+        <p class = "date-part"> {{dayName}} </p>
+        <p class = "date-part"> {{toDayDay}} </p>
+        <p class = "date-part"> {{toDayMonth}} </p>
+        <p class = "date-part"> {{toDayYear}} </p> <br>{{fajr}}
+        </div>
+      </div>
+      
+      <div class="awqat">
+        <div class="salat enabled">
+          <div class="salat-time">{{times.fajr}} </div>
+          <div class="salat-name"> الفجر</div>
+        </div>
+        <div class="salat">
+          <div class="salat-time">{{times.sunrise}}</div>
+          <div class="salat-name"> الشّروق</div>
+        </div>
+        <div class="salat">
+          <div class="salat-time">{{times.dhuhr}}</div>
+          <div class="salat-name"> الظّهر</div>
+        </div>
+        <div class="salat">
+          <div class="salat-time">{{times.asr}}</div>
+          <div class="salat-name"> العصر</div>
+        </div>
+        <div class="salat">
+          <div class="salat-time">{{times.maghrib}}</div>
+          <div class="salat-name"> المغرب</div>
+        </div>
+        <div class="salat">
+          <div class="salat-time">{{times.isha}}</div>
+          <div class="salat-name"> العشاء</div>
+        </div>
+      </div>
+    </div>
+    <div class="side-bar-right col-lg-6">
+    <div class="to-day-invocations">
+      <div class="invocation-title">حديث اليوم</div>
+      <img class="no-mobile" src="../../assets/images/8043-no-mobile-phones.png">
+     <div class="invocation-content"> {{toDayInvocation}} </div>
+     <div class="invocation-takhrij"> {{toDayInvocationTakhrij}} </div>
+    </div>
+  </div>
+</div>
