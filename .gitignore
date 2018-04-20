@@ -1,42 +1,42 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+awqati/dist
+awqati/tmp
+awqati/out-tsc
 
 # dependencies
-/node_modules
+awqati/node_modules
 
 # IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+awqati/.idea
+awqati/.project
+awqati/.classpath
+awqati/.c9/
+awqati/*.launch
+awqati/.settings/
+awqati/*.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+awqati/.vscode/*
+awqati/!.vscode/settings.json
+awqati/!.vscode/tasks.json
+awqati/!.vscode/launch.json
+awqati/!.vscode/extensions.json
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
+awqati/.sass-cache
+awqati/connect.lock
+awqati/coverage
+awqati/libpeerconnection.log
+awqati/npm-debug.log
+awqati/testem.log
+awqati/typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+awqati/e2e/*.js
+awqati/e2e/*.map
 
 # System Files
-.DS_Store
-Thumbs.db
+awqati/.DS_Store
+awqati/Thumbs.db
